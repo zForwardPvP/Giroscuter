@@ -1,0 +1,2509 @@
+* {
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+.nazv {
+    margin-left: 400px;
+    margin-top: 80px;
+}
+/*Шапка начало*/
+.header {
+    margin: auto;
+    width: 100%;
+}
+.head {
+    display: flex;
+    position: relative;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);     
+}
+.text-header {
+    margin-left: 220px;
+}
+.button-header {
+    display: flex;
+    background: #fe8e05;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 40px;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-right: 400px;
+}
+
+.Logo {
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.menu-header {
+    display: flex;
+    margin-left: 215px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+    margin-left: 450px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.menu-item {
+    margin-right: 25px;
+    font-size: 14px;
+}
+/*Шапка конец*/
+/*Главная начало*/
+.izobr {
+    background: url('../img/1.png') no-repeat center top / cover;
+    padding-bottom: 60px;
+    height: 750px;
+    color: #FBFBFB;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.logo-main {
+    font-size: 60px;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+.main-link {
+    background: #ffffff;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    height: 40px;
+    margin-left: auto;
+    margin-top: 5px;
+    width: 117px;
+}
+
+.main-p {
+    padding: 0px 670px 20px;
+    line-height: 30px;
+}
+/*Главная конец*/
+/*Преимущества начало*/
+.preim {
+    width: 80%;
+    display: flex;
+    margin-left: 380px;
+    margin-top: 100px;
+}
+.preim-block {
+    margin-left: 110px;
+}
+/*Преимущества конец*/
+/*О нас начало*/
+.text {
+    margin-left: 400px;
+}
+.osob {
+    margin-left: 280px;
+    width: 80%;
+    display: flex;
+}
+.osob-block {
+    margin-left: 150px;
+}
+.osob2 {
+    margin-left: 400px;
+    margin-top: 40px;
+}
+/*О нас конец*/
+/*Рассылка начало*/
+.rassilka {
+    background-color: #fe8e05;
+    padding: 12px;
+    width: 100%;
+}
+.text-rassilka {
+    margin-left: 390px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    margin-right: 50px;
+}
+.text-field {
+    border: 1px solid #fff;
+    margin-left: 50px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 160px;
+    text-align: center;
+    font-size: 14px;
+}
+.podpisatsya {
+    margin-left: 50px;
+    background-color: white;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+}
+/*Рассылка конец*/
+/*Особенности начало*/
+li {
+    list-style-type: none; /* Убираем маркеры у списка */
+   }
+/*Особенности конец*/
+/*Каталог начало*/
+.catalog {
+    margin: auto;
+    width: 1200px;
+    height: 450px;
+    display: flex;
+}
+.padding-katalog {
+    background-color: #FBFBFB;
+    padding-bottom: 60px;
+}
+.katalog {
+    margin-top: 80px;
+    display: flex;
+    padding-bottom: 60px;
+}
+.katalog-info {
+    margin-left: 500px;
+    display: flex;
+}
+.katalog-info1 {
+    margin-left: 40px;
+}
+.katalog-item {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 2px;
+    padding-top: 60px;
+    margin-left: 30px;
+}
+.button-katalog {
+    display: flex;
+    background-color: #fe8e05;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    margin-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.katalog-item-button {
+    background-color: #fe8e05;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.img-katalog {
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 230px;
+    height: 230px;
+}
+.otstup {
+    margin-left: 20px;
+}
+/*Каталог начало*/
+/*Консультанты начало*/
+.padding-kons {
+    padding-bottom: 80px;
+}
+.konsul {
+    background-color: #FBFBFB;
+}
+.name {
+    font-size: 24px;
+}
+.rabota {
+    margin-bottom: 60px;
+}
+.button {
+    background-color: #fe8e05;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.konsul-img1 {
+    width: 200px;
+    height: 250px;
+}
+.konsul-img2 {
+    width: 200px;
+    height: 200px;
+}
+.konsul-img3 {
+    width: 200px;
+    height: 200px;
+}
+.konsul-item {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.konsul-text {
+    display: block;
+    padding: 30px;
+}
+/*Консультанты конец*/
+/*Бренды начало*/
+.brends {
+    display: flex;
+    font-size: 44px;
+    background-color: #FBFBFB;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.brend-item {
+    padding-right: 80px;
+    margin: 0;
+    color: #9B9B9B;
+}
+/*Бренды конец*/
+/*Полезная информация начало*/
+.padding-div {
+    padding-top: 60px;
+}
+.pol-info {
+    margin-top: 80px;
+    margin-bottom: 120px;
+    margin-left: 370px;
+    width: 80%;
+    display: flex;
+    position: relative;
+}
+.pol-info-div {
+    position: relative;
+}
+
+.pol-info-img {
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+}
+.pol-info-span {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -55%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*Полезная информация конец*/
+/*Подвал начало*/
+.footer {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 400px;
+    width: 100%;
+    display: flex;
+    background-color: #FBFBFB;
+}
+.footer-info {
+    display: flex;
+    margin-left: 200px;
+}
+.footer-item {
+    margin-left: 50px;
+}
+.copyright {
+    margin-top: 60px;
+    display: flex;
+}
+/*Подвал конец*/
+@media (max-width: 1604px) {
+    .nazv{
+        margin-left: 20px;
+    }
+    .button-header {
+        margin-right: 42px;
+        padding-top: 10px;
+        margin-top: 2px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .text-header {
+        margin-left: 42px;
+        margin-right: 20px;
+    }
+    .Logo {
+        margin-left: 84px;
+    }
+    .menu-header {
+        margin-left: 0;
+        display: block;
+    }
+    .menu {
+        display: flex;
+        margin-left: 84px;
+    }
+    .menu-item {
+        margin-top: 10px;
+    }
+    .main-p {
+        padding: 0px;
+    }
+    .preim {
+        margin-left: 10%;
+        margin-top: 0;
+        display: flex;
+    }
+    .preim-block {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .text {
+        margin-left: 5px;
+    }
+    .text-rassilka {
+        text-align: left;
+        margin-left: 0;
+    }
+    .rassilka {
+        width: 100%;
+        height: 92px;
+    }
+    .container {
+        display: flex;
+    }
+    .text-rassilka {
+        text-align: left;
+        padding-left: 10px;
+        margin-top: 20px;
+    }
+    .text-field {
+        margin-left: 48px;
+        margin-right: 10px;
+        text-align: left;
+    }
+    .podpisatsya {
+        margin-left: 48px;
+        margin-right: 10px;
+        text-align: center;
+        padding-top: 17px;
+        padding-bottom: 8px;
+    }
+    .osob {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+    }
+    .osob-block {
+        margin-left: 0;
+    }
+    .osob2 {
+        margin-left: 5px;
+    }
+    .img-katalog {
+        width: 350px;
+        height: 350px;
+    }
+    .katalog {
+        margin-left: 0;
+        display: block;
+    }
+    .katalog-info {
+        margin-left: 0;
+        display: flex;
+    }
+    .katalog-info1 {
+        margin-left: 15px;
+    }
+    .button-katalog {
+        display: flex;
+    }
+    .catalog {
+        display: inline;
+    }
+    .katalog-item {
+        width: 30%;
+    }
+    .konsul {
+        align-items: baseline;
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+    }
+    .konsul-text {
+        padding: 18px;
+    }
+    .brends {
+        display: flex;
+        font-size: 36px;
+    }
+    .brend-item {
+        margin-left: 10px;
+        margin-top: 40px;
+        padding-right: 20px;
+    }
+    .pol-info {
+        margin-left: 0;
+        display: block;
+    }
+    .pol-info-img {
+        margin-top: 20px;
+        margin-left: 417px;
+        width: 400px;
+        height: 400px;
+    }
+    .pol-info-span {
+        top: 54%;
+        left: 60%;
+    }
+    .footer {
+        display: flex;
+        padding-left: 36px;
+    }
+    .footer-text {
+        margin-left: 10px;
+    }
+    .footer-info {
+        display: flex;
+        margin-left: 70px;
+    }
+}
+@media (max-width: 1888px) {
+    .nazv{
+        margin-left: 20px;
+    }
+    .button-header {
+        margin-right: 42px;
+        padding-top: 10px;
+        margin-top: 2px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .text-header {
+        margin-left: 42px;
+        margin-right: 20px;
+    }
+    .Logo {
+        margin-left: 84px;
+    }
+    .menu-header {
+        margin-left: 0;
+        display: block;
+    }
+    .menu {
+        display: flex;
+        margin-left: 84px;
+    }
+    .menu-item {
+        margin-top: 10px;
+    }
+    .main-p {
+        padding: 0px;
+    }
+    .preim {
+        margin-left: 0;
+        margin-top: 0;
+        display: flex;
+    }
+    .preim-block {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .text {
+        margin-left: 5px;
+    }
+    .text-rassilka {
+        text-align: left;
+        margin-left: 0;
+    }
+    .rassilka {
+        width: 100%;
+        height: 92px;
+    }
+    .container {
+        display: flex;
+    }
+    .text-rassilka {
+        text-align: left;
+        padding-left: 10px;
+        margin-top: 20px;
+    }
+    .text-field {
+        margin-left: 48px;
+        margin-right: 10px;
+        text-align: left;
+    }
+    .podpisatsya {
+        margin-left: 48px;
+        margin-right: 10px;
+        text-align: center;
+        padding-top: 17px;
+        padding-bottom: 8px;
+    }
+    .osob {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+    }
+    .osob-block {
+        margin-left: 0;
+    }
+    .osob2 {
+        margin-left: 5px;
+    }
+    .img-katalog {
+        width: 350px;
+        height: 350px;
+    }
+    .katalog {
+        margin-left: 0;
+        display: block;
+    }
+    .katalog-info {
+        margin-left: 0;
+        display: flex;
+    }
+    .katalog-info1 {
+        margin-left: 15px;
+    }
+    .button-katalog {
+        display: flex;
+    }
+    .catalog {
+        display: inline;
+    }
+    .katalog-item {
+        width: 25%;
+    }
+    .konsul {
+        align-items: baseline;
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+    }
+    .konsul-text {
+        padding: 18px;
+    }
+    .brends {
+        display: flex;
+        font-size: 36px;
+    }
+    .brend-item {
+        margin-left: 10px;
+        margin-top: 40px;
+        padding-right: 20px;
+    }
+    .pol-info {
+        margin-left: 0;
+        display: block;
+    }
+    .pol-info-img {
+        margin-top: 20px;
+        margin-left: 417px;
+        width: 400px;
+        height: 400px;
+    }
+    .pol-info-span {
+        top: 54%;
+        left: 60%;
+    }
+    .footer {
+        display: flex;
+        padding-left: 36px;
+    }
+    .footer-text {
+        margin-left: 10px;
+    }
+    .footer-info {
+        display: flex;
+        margin-left: 70px;
+    }
+}
+@media (max-width: 1280px) {
+    .nazv{
+        margin-left: 20px;
+    }
+    .button-header {
+        margin-right: 42px;
+        padding-top: 10px;
+        margin-top: 2px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .text-header {
+        margin-left: 42px;
+        margin-right: 20px;
+    }
+    .Logo {
+        margin-left: 84px;
+    }
+    .menu-header {
+        margin-left: 0;
+        display: block;
+    }
+    .menu {
+        display: flex;
+        margin-left: 84px;
+    }
+    .menu-item {
+        margin-top: 10px;
+    }
+    .main-p {
+        padding: 0px;
+    }
+    .preim {
+        margin-left: 0;
+        margin-top: 0;
+        display: flex;
+    }
+    .preim-block {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .text {
+        margin-left: 5px;
+    }
+    .text-rassilka {
+        text-align: left;
+        margin-left: 0;
+    }
+    .rassilka {
+        width: 100%;
+        height: 92px;
+    }
+    .container {
+        display: flex;
+    }
+    .text-rassilka {
+        text-align: left;
+        padding-left: 10px;
+        margin-top: 20px;
+    }
+    .text-field {
+        margin-left: 48px;
+        margin-right: 10px;
+        text-align: left;
+    }
+    .podpisatsya {
+        margin-left: 48px;
+        margin-right: 10px;
+        text-align: center;
+        padding-top: 17px;
+        padding-bottom: 8px;
+    }
+    .osob {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+    }
+    .osob-block {
+        margin-left: 0;
+    }
+    .osob2 {
+        margin-left: 5px;
+    }
+    .img-katalog {
+        width: 350px;
+        height: 350px;
+    }
+    .katalog {
+        margin-left: 0;
+        display: block;
+    }
+    .katalog-info {
+        margin-left: 0;
+        display: flex;
+    }
+    .katalog-info1 {
+        margin-left: 15px;
+    }
+    .button-katalog {
+        display: flex;
+    }
+    .catalog {
+        display: inline;
+    }
+    .katalog-item {
+        width: 30%;
+    }
+    .konsul {
+        align-items: baseline;
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+    }
+    .konsul-text {
+        padding: 18px;
+    }
+    .brends {
+        display: flex;
+        font-size: 36px;
+    }
+    .brend-item {
+        margin-left: 10px;
+        margin-top: 40px;
+        padding-right: 20px;
+    }
+    .pol-info {
+        margin-left: 0;
+        display: block;
+    }
+    .pol-info-img {
+        margin-top: 20px;
+        margin-left: 417px;
+        width: 400px;
+        height: 400px;
+    }
+    .pol-info-span {
+        top: 54%;
+        left: 60%;
+    }
+    .footer {
+        display: flex;
+        padding-left: 36px;
+    }
+    .footer-text {
+        margin-left: 10px;
+    }
+    .footer-info {
+        display: flex;
+        margin-left: 70px;
+    }
+}
+@media (max-width: 1024px) {
+    .nazv{
+        margin-left: 20px;
+    }
+    .button-header {
+        margin-right: 42px;
+        padding-top: 10px;
+        margin-top: 2px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .text-header {
+        margin-left: 42px;
+        margin-right: 20px;
+    }
+    .Logo {
+        margin-left: 84px;
+    }
+    .menu-header {
+        margin-left: 0;
+        display: block;
+    }
+    .menu {
+        display: flex;
+        margin-left: 84px;
+    }
+    .menu-item {
+        margin-top: 10px;
+    }
+    .main-p {
+        padding: 0px;
+    }
+    .preim {
+        margin-left: 0;
+        margin-top: 0;
+        display: block;
+    }
+    .preim-block {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .text {
+        margin-left: 5px;
+    }
+    .text-rassilka {
+        text-align: left;
+        margin-left: 0;
+    }
+    .rassilka {
+        width: 100%;
+        height: 92px;
+    }
+    .container {
+        display: flex;
+    }
+    .text-rassilka {
+        text-align: left;
+        padding-left: 10px;
+        margin-top: 0;
+    }
+    .text-field {
+        margin-left: 0;
+        margin-right: 10px;
+        text-align: left;
+    }
+    .podpisatsya {
+        margin-left: 0;
+        margin-right: 10px;
+        text-align: center;
+        padding-top: 17px;
+        padding-bottom: 8px;
+    }
+    .osob {
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .osob-block {
+        margin-left: 0;
+    }
+    .osob2 {
+        margin-left: 5px;
+    }
+    .img-katalog {
+        width: 350px;
+        height: 350px;
+    }
+    .katalog {
+        margin-left: 0;
+        display: block;
+    }
+    .katalog-info {
+        margin-left: 0;
+        display: flex;
+    }
+    .katalog-info1 {
+        margin-left: 15px;
+    }
+    .button-katalog {
+        display: flex;
+    }
+    .catalog {
+        display: inline;
+    }
+    .katalog-item {
+        width: 42%;
+    }
+    .konsul {
+        align-items: baseline;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .konsul-text {
+        padding: 18px;
+    }
+    .konsul-item {
+        padding-left: 85px;
+    }
+    .brends {
+        display: block;
+    }
+    .brend-item {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .pol-info {
+        margin-left: 0;
+        display: block;
+    }
+    .pol-info-img {
+        margin-top: 20px;
+        margin-left: 291px;
+        width: 400px;
+        height: 400px;
+    }
+    .pol-info-span {
+        top: 54%;
+        left: 60%;
+    }
+    .footer {
+        display: block;
+        padding-left: 0;
+    }
+    .footer-text {
+        margin-left: 10px;
+    }
+    .footer-info {
+        display: flex;
+        margin-left: 0;
+    }
+}
+@media (max-width: 912px) {
+    .nazv{
+        margin-left: 20px;
+    }
+    .button-header {
+        margin-right: 42px;
+        padding-top: 10px;
+        margin-top: 2px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .text-header {
+        margin-left: 42px;
+        margin-right: 20px;
+    }
+    .Logo {
+        margin-left: 84px;
+    }
+    .menu-header {
+        margin-left: 0;
+        display: block;
+    }
+    .menu {
+        display: flex;
+        margin-left: 84px;
+    }
+    .menu-item {
+        margin-top: 10px;
+    }
+    .main-p {
+        padding: 0px;
+    }
+    .preim {
+        margin-left: 0;
+        margin-top: 0;
+        display: block;
+    }
+    .preim-block {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .text {
+        margin-left: 5px;
+    }
+    .text-rassilka {
+        text-align: left;
+        margin-left: 0;
+    }
+    .rassilka {
+        width: 100%;
+        height: 92px;
+    }
+    .container {
+        display: flex;
+    }
+    .text-rassilka {
+        text-align: left;
+        padding-left: 10px;
+        margin-top: 0;
+    }
+    .text-field {
+        margin-left: 0;
+        margin-right: 10px;
+        text-align: left;
+    }
+    .podpisatsya {
+        margin-left: 0;
+        margin-right: 10px;
+        text-align: center;
+        padding-top: 17px;
+        padding-bottom: 8px;
+    }
+    .osob {
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .osob-block {
+        margin-left: 0;
+    }
+    .osob2 {
+        margin-left: 5px;
+    }
+    .img-katalog {
+        width: 350px;
+        height: 350px;
+    }
+    .katalog {
+        margin-left: 0;
+        display: block;
+    }
+    .katalog-info {
+        margin-left: 0;
+        display: flex;
+    }
+    .katalog-info1 {
+        margin-left: 15px;
+    }
+    .button-katalog {
+        display: flex;
+    }
+    .catalog {
+        display: inline;
+    }
+    .katalog-item {
+        width: 42%;
+    }
+    .konsul {
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .konsul-text {
+        padding: 18px;
+    }
+    .konsul-item {
+        padding-left: 20px;
+    }
+    .brends {
+        display: block;
+    }
+    .brend-item {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .pol-info {
+        margin-left: 0;
+        display: block;
+    }
+    .pol-info-img {
+        margin-top: 20px;
+        margin-left: 291px;
+    }
+    .pol-info-span {
+        top: 54%;
+        left: 60%;
+    }
+    .footer {
+        display: block;
+        padding-left: 0;
+    }
+    .footer-text {
+        margin-left: 10px;
+    }
+    .footer-info {
+        display: flex;
+        margin-left: 0;
+    }
+}
+@media (max-width: 820px) {
+    .nazv {
+        margin-left: 20px;
+    }
+
+    .button-header {
+        margin-right: 42px;
+        padding-top: 10px;
+        margin-top: 2px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .text-header {
+        margin-left: 42px;
+        margin-right: 20px;
+    }
+
+    .Logo {
+        margin-left: 40px;
+    }
+
+    .menu-header {
+        margin-left: 0;
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        margin-left: 30px;
+    }
+
+    .menu-item {
+        margin-top: 10px;
+    }
+
+    .main-p {
+        padding: 0px;
+    }
+
+    .preim {
+        margin-left: 0;
+        margin-top: 0;
+        display: block;
+    }
+
+    .preim-block {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .text {
+        margin-left: 5px;
+    }
+
+    .text-rassilka {
+        margin-left: 0;
+    }
+
+    .rassilka {
+        width: 100%;
+        height: 250px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .text-rassilka {
+        text-align: center;
+        padding-left: 30px;
+    }
+
+    .text-field {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .podpisatsya {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .osob {
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .osob-block {
+        margin-left: 0;
+    }
+
+    .osob2 {
+        margin-left: 5px;
+    }
+
+    .img-katalog {
+        width: 250px;
+        height: 250px;
+    }
+
+    .katalog {
+        margin-left: 0;
+        display: block;
+    }
+
+    .katalog-info {
+        margin-left: 0;
+        display: flex;
+    }
+
+    .katalog-info1 {
+        margin-left: 15px;
+    }
+
+    .button-katalog {
+        display: flex;
+    }
+
+    .catalog {
+        display: inline;
+    }
+
+    .katalog-item {
+        width: 35%;
+    }
+
+    .konsul {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .konsul-text {
+        padding: 18px;
+    }
+
+    .konsul-item {
+        padding-left: 20px;
+    }
+
+    .brends {
+        display: block;
+    }
+
+    .brend-item {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    .pol-info {
+        margin-left: 0;
+        display: block;
+    }
+
+    .pol-info-img {
+        margin-top: 20px;
+        margin-left: 208px;
+    }
+
+    .pol-info-span {
+        top: 54%;
+        left: 60%;
+    }
+
+    .footer {
+        display: block;
+        padding-left: 0;
+    }
+
+    .footer-text {
+        margin-left: 10px;
+    }
+
+    .footer-info {
+        display: flex;
+        margin-left: 0;
+    }
+}
+@media (max-width: 768px) {
+    .nazv{
+        margin-left: 20px;
+    }
+    .button-header {
+        margin-right: 42px;
+        padding-top: 10px;
+        margin-top: 2px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .text-header {
+        margin-left: 42px;
+        margin-right: 20px;
+    }
+    .Logo {
+        margin-left: 40px;
+    }
+    .menu-header {
+        margin-left: 0;
+        display: block;
+    }
+    .menu {
+        display: flex;
+        margin-left: 30px;
+    }
+    .menu-item {
+        margin-top: 10px;
+    }
+    .main-p {
+        padding: 0px;
+    }
+    .preim {
+        margin-left: 0;
+        margin-top: 0;
+        display: block;
+    }
+    .preim-block {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .text {
+        margin-left: 5px;
+    }
+    .text-rassilka {
+        margin-left: 0;
+    }
+    .rassilka {
+        width: 100%;
+        height: 250px;
+    }
+    .container {
+        display: block;
+    }
+    .text-rassilka {
+        text-align: center;
+        padding-left: 30px;
+    }
+    .text-field {
+        margin-left: 0;
+        text-align: left;
+    }
+    .podpisatsya {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .osob {
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .osob-block {
+        margin-left: 0;
+    }
+    .osob2 {
+        margin-left: 5px;
+    }
+    .img-katalog {
+        width: 350px;
+        height: 350px;
+    }
+    .katalog {
+        margin-left: 0;
+        display: block;
+    }
+    .katalog-info {
+        margin-left: 0;
+        display: flex;
+    }
+    .katalog-info1 {
+        margin-left: 15px;
+    }
+    .button-katalog {
+        display: flex;
+    }
+    .catalog {
+        display: inline;
+    }
+    .katalog-item {
+        width: 52%;
+    }
+    .konsul {
+        margin-left: 0;
+        width: 100%;
+    }
+    .konsul-text {
+        padding: 18px;
+    }
+    .konsul-item {
+        padding-left: 20px;
+    }
+    .brends {
+        display: block;
+    }
+    .brend-item {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .pol-info {
+        margin-left: 0;
+        display: block;
+    }
+    .pol-info-img {
+        margin-top: 20px;
+        margin-left: 208px;
+    }
+    .pol-info-span {
+        top: 54%;
+        left: 60%;
+    }
+    .footer {
+        display: block;
+        padding-left: 0;
+    }
+    .footer-text {
+        margin-left: 10px;
+    }
+    .footer-info {
+        display: flex;
+        margin-left: 0;
+    }
+}
+@media (max-width: 540px) {
+    .nazv{
+        margin-left: 20px;
+    }
+    .button-header {
+        margin-right: 42px;
+        padding-top: 4px;
+        margin-top: 15px;
+        padding-right: 0px;
+    }
+    .text-header {
+        margin-left: 42px;
+        margin-right: 20px;
+    }
+    .Logo {
+        margin-left: 10px;
+    }
+    .menu-header {
+        margin-left: 0;
+        display: block;
+    }
+    .menu {
+        display: block;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+    .menu-item {
+        margin-top: 10px;
+    }
+    .main-p {
+        padding: 0px;
+    }
+    .preim {
+        margin-left: 0;
+        margin-top: 0;
+        display: block;
+    }
+    .preim-block {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .text {
+        margin-left: 0;
+    }
+    .text-rassilka {
+        margin-left: 0;
+    }
+    .rassilka {
+        width: 100%;
+        height: 250px;
+    }
+    .container {
+        display: block;
+    }
+    .text-rassilka {
+        text-align: center;
+        padding-left: 30px;
+    }
+    .text-field {
+        margin-left: 0;
+        text-align: left;
+    }
+    .podpisatsya {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .osob {
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .osob-block {
+        margin-left: 0;
+    }
+    .osob2 {
+        margin-left: 0;
+    }
+    .img-katalog {
+        width: 350px;
+        height: 350px;
+    }
+    .katalog {
+        margin-left: 0;
+        display: block;
+    }
+    .katalog-info {
+        margin-left: 0;
+        display: flex;
+    }
+    .katalog-info1 {
+        margin-left: 15px;
+    }
+    .button-katalog {
+        display: flex;
+    }
+    .catalog {
+        display: inline;
+    }
+    .katalog-item {
+        width: 80%;
+    }
+    .konsul {
+        margin-left: 0;
+        width: 100%;
+    }
+    .konsul-text {
+        padding: 18px;
+    }
+    .konsul-item {
+        padding-left: 0;
+    }
+    .brends {
+        display: block;
+    }
+    .brend-item {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .pol-info {
+        margin-left: 0;
+        display: block;
+    }
+    .pol-info-img {
+        margin-top: 20px;
+        margin-left: 15%;
+    }
+    .pol-info-span {
+        top: 54%;
+        left: 63%;
+    }
+    .footer {
+        display: block;
+        padding-left: 0;
+    }
+    .footer-info {
+        display: block;
+        margin-left: 0;
+    }
+}
+@media (max-width: 414px) {
+    .nazv {
+        margin-left: 20px;
+    }
+
+    .button-header {
+        margin-right: 0;
+        padding-top: 4px;
+        margin-top: 15px;
+        padding-right: 16px;
+    }
+
+    .text-header {
+        margin-left: 0px;
+    }
+
+    .Logo {
+        margin-left: 10px;
+    }
+
+    .menu-header {
+        margin-left: 0;
+        display: block;
+    }
+
+    .menu {
+        display: block;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    .menu-item {
+        margin-top: 10px;
+    }
+
+    .main-p {
+        padding: 0px;
+    }
+
+    .preim {
+        margin-left: 0;
+        margin-top: 0;
+        display: block;
+    }
+
+    .preim-block {
+        margin-top: 50px;
+        margin-left: 110px;
+    }
+
+    .text {
+        margin-left: 0;
+    }
+
+    .text-rassilka {
+        margin-left: 0;
+    }
+
+    .rassilka {
+        width: 100%;
+        height: 250px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .text-rassilka {
+        text-align: center;
+        padding-left: 30px;
+    }
+
+    .text-field {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .podpisatsya {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .osob {
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .osob-block {
+        margin-left: 0;
+    }
+
+    .osob2 {
+        margin-left: 0;
+    }
+
+    .img-katalog {
+        width: 300px;
+        height: 300px;
+    }
+
+    .katalog {
+        margin-left: 0;
+        display: block;
+    }
+
+    .katalog-info {
+        margin-left: 0;
+        display: block;
+    }
+
+    .katalog-info1 {
+        margin-left: 20px;
+    }
+
+    .button-katalog {
+        display: inline;
+    }
+
+    .catalog {
+        display: inline;
+    }
+
+    .katalog-item {
+        width: 80%;
+    }
+
+    .konsul {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .konsul-text {
+        padding: 18px;
+    }
+
+    .konsul-item {
+        padding-left: 0;
+    }
+
+    .brends {
+        display: block;
+    }
+
+    .brend-item {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    .pol-info {
+        margin-left: 0;
+        display: block;
+    }
+
+    .pol-info-img {
+        margin-top: 20px;
+        width: 250px;
+        height: 250px;
+        margin-left: 20%;
+    }
+
+    .footer {
+        display: block;
+        padding-left: 0;
+    }
+
+    .footer-info {
+        display: block;
+        margin-left: 0;
+    }
+}
+@media (max-width: 412px) {
+    .nazv{
+        margin-left: 20px;
+    }
+    .button-header {
+        margin-right: 0;
+        padding-top: 4px;
+        margin-top: 15px;
+        padding-right: 16px;
+    }
+    .text-header {
+        margin-left: 0px;
+    }
+    .Logo {
+        margin-left: 10px;
+    }
+    .menu-header {
+        margin-left: 0;
+        display: block;
+    }
+    .menu {
+        display: block;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+    .menu-item {
+        margin-top: 10px;
+    }
+    .main-p {
+        padding: 0px;
+    }
+    .preim {
+        margin-left: 0;
+        margin-top: 0;
+        display: block;
+    }
+    .preim-block {
+        margin-top: 50px;
+    }
+    .text {
+        margin-left: 0;
+    }
+    .text-rassilka {
+        margin-left: 0;
+    }
+    .rassilka {
+        width: 100%;
+        height: 250px;
+    }
+    .container {
+        display: block;
+    }
+    .text-rassilka {
+        text-align: center;
+        padding-left: 30px;
+    }
+    .text-field {
+        margin-left: 0;
+        text-align: left;
+    }
+    .podpisatsya {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .osob {
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .osob-block {
+        margin-left: 0;
+    }
+    .osob2 {
+        margin-left: 0;
+    }
+    .img-katalog {
+        width: 250px;
+        height: 250px;
+    }
+    .katalog {
+        margin-left: 0;
+        display: block;
+    }
+    .katalog-info {
+        margin-left: 0;
+        display: flex;
+    }
+    .katalog-info1 {
+        margin-left: 15px;
+    }
+    .button-katalog {
+        display: flex;
+    }
+    .catalog {
+        display: inline;
+    }
+    .katalog-item {
+        width: 80%;
+    }
+    .konsul {
+        margin-left: 0;
+        width: 100%;
+    }
+    .konsul-text {
+        padding: 18px;
+    }
+    .konsul-item {
+        padding-left: 0;
+    }
+    .brends {
+        display: block;
+    }
+    .brend-item {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .pol-info {
+        margin-left: 0;
+        display: block;
+    }
+    .pol-info-img {
+        margin-top: 20px;
+        width: 250px;
+        height: 250px;
+        margin-left: 20%;
+    }
+    .footer {
+        display: block;
+        padding-left: 0;
+    }
+    .footer-info {
+        display: block;
+        margin-left: 0;
+    }
+}
+@media (max-width: 393px) {
+    .nazv {
+        margin-left: 20px;
+    }
+
+    .button-header {
+        margin-right: 0;
+        padding-top: 4px;
+        margin-top: 15px;
+        padding-right: 16px;
+    }
+
+    .text-header {
+        margin-left: 0px;
+    }
+
+    .Logo {
+        margin-left: 10px;
+    }
+
+    .menu-header {
+        margin-left: 0;
+        display: block;
+    }
+
+    .menu {
+        display: block;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    .menu-item {
+        margin-top: 10px;
+    }
+
+    .main-p {
+        padding: 0px;
+    }
+
+    .preim {
+        margin-left: 0;
+        margin-top: 0;
+        display: block;
+    }
+
+    .preim-block {
+        margin-top: 50px;
+    }
+
+    .text {
+        margin-left: 0;
+    }
+
+    .text-rassilka {
+        margin-left: 0;
+    }
+
+    .rassilka {
+        width: 100%;
+        height: 250px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .text-rassilka {
+        text-align: center;
+        padding-left: 30px;
+    }
+
+    .text-field {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .podpisatsya {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .osob {
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .osob-block {
+        margin-left: 0;
+    }
+
+    .osob2 {
+        margin-left: 0;
+    }
+
+    .img-katalog {
+        width: 250px;
+        height: 250px;
+    }
+
+    .katalog {
+        margin-left: 0;
+        display: block;
+    }
+
+    .katalog-info {
+        margin-left: 0;
+        display: block;
+    }
+
+    .katalog-info1 {
+        margin-left: 20px;
+    }
+
+    .button-katalog {
+        display: inline;
+    }
+
+    .catalog {
+        display: inline;
+    }
+
+    .katalog-item {
+        width: 80%;
+    }
+
+    .konsul {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .konsul-text {
+        padding: 18px;
+    }
+
+    .konsul-item {
+        padding-left: 0;
+    }
+
+    .brends {
+        display: block;
+    }
+
+    .brend-item {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    .pol-info {
+        margin-left: 0;
+        display: block;
+    }
+
+    .pol-info-img {
+        margin-top: 20px;
+        width: 250px;
+        height: 250px;
+        margin-left: 20%;
+    }
+
+    .footer {
+        display: block;
+        padding-left: 0;
+    }
+
+    .footer-info {
+        display: block;
+        margin-left: 0;
+    }
+}
+@media (max-width: 390px) {
+    .nazv {
+        margin-left: 20px;
+    }
+
+    .button-header {
+        margin-right: 0;
+        padding-top: 4px;
+        margin-top: 15px;
+        padding-right: 16px;
+    }
+
+    .text-header {
+        margin-left: 0px;
+    }
+
+    .Logo {
+        margin-left: 10px;
+    }
+
+    .menu-header {
+        margin-left: 0;
+        display: block;
+    }
+
+    .menu {
+        display: block;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    .menu-item {
+        margin-top: 10px;
+    }
+
+    .main-p {
+        padding: 0px;
+    }
+
+    .preim {
+        margin-left: 0;
+        margin-top: 0;
+        display: block;
+    }
+
+    .preim-block {
+        margin-top: 50px;
+    }
+
+    .text {
+        margin-left: 0;
+    }
+
+    .text-rassilka {
+        margin-left: 0;
+    }
+
+    .rassilka {
+        width: 100%;
+        height: 250px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .text-rassilka {
+        text-align: center;
+        padding-left: 30px;
+    }
+
+    .text-field {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .podpisatsya {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .osob {
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .osob-block {
+        margin-left: 0;
+    }
+
+    .osob2 {
+        margin-left: 0;
+    }
+
+    .img-katalog {
+        width: 250px;
+        height: 250px;
+    }
+
+    .katalog {
+        margin-left: 0;
+        display: block;
+    }
+
+    .katalog-info {
+        margin-left: 0;
+        display: block;
+    }
+
+    .katalog-info1 {
+        margin-left: 20px;
+    }
+
+    .button-katalog {
+        display: inline;
+    }
+
+    .catalog {
+        display: inline;
+    }
+
+    .katalog-item {
+        width: 80%;
+    }
+
+    .konsul {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .konsul-text {
+        padding: 18px;
+    }
+
+    .konsul-item {
+        padding-left: 0;
+    }
+
+    .brends {
+        display: block;
+    }
+
+    .brend-item {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    .pol-info {
+        margin-left: 0;
+        display: block;
+    }
+
+    .pol-info-img {
+        margin-top: 20px;
+        width: 250px;
+        height: 250px;
+        margin-left: 20%;
+    }
+
+    .footer {
+        display: block;
+        padding-left: 0;
+    }
+
+    .footer-info {
+        display: block;
+        margin-left: 0;
+    }
+}
+@media (max-width: 375px) {
+    .nazv{
+        margin-left: 20px;
+    }
+    .button-header {
+        margin-right: 0;
+        padding-top: 4px;
+        margin-top: 15px;
+    }
+    .text-header {
+        margin-left: 0px;
+    }
+    .Logo {
+        margin-left: 10px;
+    }
+    .menu-header {
+        margin-left: 0;
+        display: block;
+    }
+    .menu {
+        display: block;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+    .menu-item {
+        margin-top: 10px;
+    }
+    .main-p {
+        padding: 0px;
+    }
+    .preim {
+        margin-left: 0;
+        margin-top: 0;
+        display: block;
+    }
+    .preim-block {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .text {
+        margin-left: 0;
+    }
+    .text-rassilka {
+        margin-left: 0;
+    }
+    .rassilka {
+        width: 100%;
+        height: 250px;
+        padding: 4px;
+    }
+    .container {
+        display: block;
+    }
+    .text-rassilka {
+        text-align: center;
+        padding-left: 30px;
+    }
+    .text-field {
+        margin-left: 0;
+        text-align: left;
+    }
+    .podpisatsya {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .osob {
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .osob-block {
+        margin-left: 0;
+    }
+    .osob2 {
+        margin-left: 0;
+    }
+    .katalog {
+        margin-left: 0;
+        display: block;
+    }
+    .katalog-info {
+        margin-left: 0;
+        display: block;
+    }
+    .katalog-info1 {
+        margin-left: 20px;
+    }
+    .button-katalog {
+        display: inline;
+    }
+    .catalog {
+        display: inline;
+    }
+    .katalog-item {
+        width: 80%;
+    }
+    .konsul {
+        margin-left: 0;
+        width: 100%;
+    }
+    .konsul-text {
+        padding: 18px;
+    }
+    .konsul-item {
+        padding-left: 0;
+    }
+    .brends {
+        display: block;
+    }
+    .brend-item {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .pol-info {
+        margin-left: 0;
+        display: block;
+    }
+    .pol-info-img {
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+        margin-left: 30%;
+    }
+    .footer {
+        display: block;
+        padding-left: 0;
+    }
+    .footer-info {
+        display: block;
+        margin-left: 0;
+    }
+}
+@media (max-width: 280px) {
+    .nazv{
+        margin-left: 20px;
+    }
+    .button-header {
+        margin-right: 0;
+        padding-top: 4px;
+        margin-top: 15px;
+    }
+    .text-header {
+        margin-left: 0px;
+    }
+    .Logo {
+        margin-left: 10px;
+    }
+    .menu-header {
+        margin-left: 0;
+        display: block;
+    }
+    .menu {
+        display: block;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+    .menu-item {
+        margin-top: 10px;
+    }
+    .main-p {
+        padding: 0px;
+    }
+    .preim {
+        margin-left: 0;
+        margin-top: 0;
+        display: block;
+    }
+    .preim-block {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .text {
+        margin-left: 0;
+    }
+    .text-rassilka {
+        margin-left: 0;
+    }
+    .rassilka {
+        width: 100%;
+        height: 278px;
+        padding: 4px;
+    }
+    .container {
+        display: block;
+    }
+    .text-rassilka {
+        text-align: center;
+        padding-left: 30px;
+    }
+    .text-field {
+        margin-left: 0;
+        text-align: left;
+    }
+    .podpisatsya {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .osob {
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+    .osob-block {
+        margin-left: 0;
+    }
+    .osob2 {
+        margin-left: 0;
+    }
+    .katalog {
+        margin-left: 0;
+        display: block;
+    }
+    .katalog-info {
+        margin-left: 0;
+        display: block;
+    }
+    .katalog-info1 {
+        margin-left: 20px;
+    }
+    .button-katalog {
+        display: inline;
+    }
+    .catalog {
+        display: inline;
+    }
+    .katalog-item {
+        width: 80%;
+    }
+    .img-katalog {
+        width: 200px;
+        height: 200px;
+    }
+    .konsul {
+        margin-left: 0;
+        width: 100%;
+    }
+    .konsul-text {
+        padding: 18px;
+    }
+    .konsul-item {
+        padding-left: 0;
+        display: block;
+    }
+    .brends {
+        display: block;
+    }
+    .brend-item {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .pol-info {
+        margin-left: 0;
+        display: block;
+    }
+    .pol-info-img {
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+        margin-left: 15%;
+    }
+    .footer {
+        display: block;
+        padding-left: 0;
+    }
+    .footer-info {
+        display: block;
+        margin-left: 0;
+    }
+}
